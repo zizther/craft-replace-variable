@@ -1,8 +1,9 @@
 # Replace Variable plugin for Craft CMS 3.x
 
+This plugin has been replaced with a cleaner more powerful plugin [Craft Dynamic Variables](https://github.com/zizther/craft-dynamic-variables)
+
 Replace general or config variables, and global fields
 
-![Screenshot](resources/img/plugin-logo.png)
 
 ## Requirements
 
