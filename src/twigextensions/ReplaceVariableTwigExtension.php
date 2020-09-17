@@ -69,7 +69,7 @@ class ReplaceVariableTwigExtension extends AbstractExtension
     public function getFunctions()
     {
         return [
-            new TwigFunction('rv', ReplaceVariable::$plugin->replaceVariableService, 'replaceVariable']),
+            new TwigFunction('rv', [ReplaceVariable::$plugin->replaceVariableService, 'replaceVariable']),
         ];
     }
 }
